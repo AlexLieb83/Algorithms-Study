@@ -14,7 +14,6 @@
 
 // The reducer function will return out our accumulated Set. We then just use the spread operator to convert it back into an array.
 
-//
 function sym(...args) {
   return [...args.reduce(reducer, new Set())];
 }
